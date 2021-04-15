@@ -1,0 +1,15 @@
+.cmp-byline {
+    $imageSize: 60px;
+
+    .cmp-byline__image {
+        float: left;
+
+    /* This class targets a Core Component Image CSS class */
+    .cmp-image__image {
+        width: $imageSize;
+        height: $imageSize;
+        border-radius: $imageSize / 2;
+        object-fit: cover;
+        }
+    }
+   }
